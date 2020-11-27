@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "aws-sdk": "^2.799.0"
+    "aws-sdk": "^2.799.0",
+    "yaml": "^1.10.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.25.1"
