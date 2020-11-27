@@ -1,0 +1,12 @@
+name: 'Amazon ECS "Register Task Definition" Action for GitHub Actions'
+description: 'Registers a new task definition'
+inputs:
+  task-definition:
+    description: 'The path to the ECS task definition file to register'
+    required: true
+outputs:
+  task-definition-arn:
+    description: 'The ARN of the registered ECS task definition'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
